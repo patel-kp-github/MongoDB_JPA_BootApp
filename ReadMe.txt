@@ -9,19 +9,25 @@ mongo
 2)db.createCollection("snippet");
 3)db.snippet.insertMany([
   {
-    "name" : "Spot",
-    "species" : "dog",
-    "breed" : "pitbull"
+    "id" : "1",
+    "title" : "demo title",
+    "code" : "pitbull",
+    "created":"10/16/2018",
+    "modified":"10/16/2018"
   },
   {
-    "name" : "Daisy",
-    "species" : "cat",
-    "breed" : "calico"
+     "id" : "2",
+    "title" : "demo title2",
+    "code" : "pitbull",
+    "created":"10/16/2018",
+    "modified":"10/16/2018"
   },
   {
-    "name" : "Bella",
-    "species" : "dog",
-    "breed" : "australian shepard"
+    "id" : "3",
+    "title" : "demo title3",
+    "code" : "pitbull",
+    "created":"10/16/2018",
+    "modified":"10/16/2018"
   }
 ]);
 
